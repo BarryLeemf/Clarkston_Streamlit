@@ -36,9 +36,9 @@ t1, t2 = st.columns((2,1))
 t1.image('images/Company logo.jpeg', width = None)
 #t2.title(":blue[Supply Chain Management Tool]")
 
-t2.markdown(" **Tel:** 01392 451192")
-t2.markdown(" **Website:** https://www.swast.nhs.uk")
-t2.markdown(" **Email:** data.science@swast.nhs.uk")
+t2.markdown(" **Phone:** (919) 484-4400")
+t2.markdown(" **Website:** https://clarkstonconsulting.com")
+t2.markdown(" **Email:** info@clarkstonconsulting.com")
 
 
 st.markdown("---")
