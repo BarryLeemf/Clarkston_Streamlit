@@ -12,7 +12,6 @@ st.markdown(
     .css-18ni7ap.e8zbici2 {
         background-color: rgba(0, 0, 0, 0.8) ;
         background-repeat: no-repeat;
-        background-image: url('https://clarkstonconsulting.com/wp-content/uploads/2021/11/Clarkston_Consulting_Logo_white-text-475x100-1.png');
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -42,7 +41,7 @@ t2.markdown(" **Email:** info@clarkstonconsulting.com")
 
 
 st.markdown("---")
-
+st.title(":blue[Supply Chain Managemrnt Tools]")
 #st.subheader("**tel:** 01392 451192 **| website:** https://www.swast.nhs.uk **| email:** mailto:data.science@swast.nhs.uk", anchor = None)
 
 st.subheader('Questionnaire Page - Data Collection')
