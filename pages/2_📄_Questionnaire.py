@@ -113,8 +113,8 @@ add_role = st.sidebar.selectbox(
 current_date = datetime.date.today()
 current_time = datetime.datetime.now()
 
-st.write("Current Time: ", ":green["+current_time.strftime("%m-%d-%Y %H:%M:%S")+"]")
-
+#st.write("Current Time: ", ":green["+current_time.strftime("%m-%d-%Y %H:%M:%S")+"]")
+st.write("Current Time: ", current_time)
 st.sidebar.write("Click the Start Button to Begin")
 if st.sidebar.button("START"):
     st.session_state.time_q = time.time()
