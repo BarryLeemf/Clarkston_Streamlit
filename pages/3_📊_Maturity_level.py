@@ -67,7 +67,7 @@ with open('Clarkston_questionnaire.json', 'r') as f:
 
 
 def get_score_data(sheet, company):
-    dummy_data = pd.read_csv("./"+ company +"_sheet_dummy_data/"+sheet+".csv",index_col=[0])
+    dummy_data = pd.read_csv("Clarkston_Streamlit/"+ company +"_sheet_dummy_data/"+sheet+".csv",index_col=[0])
     dummy_data.rename(columns = {'0':'0.0', '1':'1.0', '2': '2.0'}, inplace = True)
     maturity_weight_list = []
     for i in questionnaire_data[sheet]:
