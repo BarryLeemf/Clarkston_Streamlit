@@ -31,7 +31,7 @@ st.markdown(
     unsafe_allow_html=True
     )
 
-t1, t2 = st.columns((2,1)) 
+t1, t2 = st.columns((3,2)) 
 
 t1.image('images/Company logo.jpeg', width = None)
 #t2.title(":blue[Supply Chain Management Tool]")
